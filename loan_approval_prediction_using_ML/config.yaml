@@ -1,0 +1,11 @@
+database:
+  user: "postgres" # Set the sql driver you are using
+  password: "your_password" # set your own password here
+  host: "localhost"
+  port: "5432"
+  name: "loan_approval_prediction_dataset"
+
+paths:
+  raw_data: data/raw/
+  staging_data: data/staging/
+  processed_data: data/processed/
